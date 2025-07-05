@@ -39,7 +39,9 @@ This repository contains a case study performed on the KMS business dataset usin
 # MY SECOND PROJECT IS ON POWER-BI
 # Power BI DSA Case Study
 
-This repository contains a Power BI dashboard project completed as part of a Data Science and Analytics (DSA) case study. It focuses on analyzing business performance data to extract insights and support decision-making.
+# PROJECT OVERVIEW
+
+This repository contains a Power BI dashboard project completed as part of a Data Science and Analytics (DSA) case study. It focuses on analyzing business performance data of Palmora Group. The Data Analysis aim to Analyse the company data and generate insights that the Palmora management team would need to address. The database includes a csv file.
 
 ## 📁 Contents
 
@@ -53,12 +55,31 @@ This repository contains a Power BI dashboard project completed as part of a Dat
 
 ## 🛠 Tools Used
 
-- Microsoft Power BI
-- DAX & Power Query
-- Excel / CSV data sources
+- Microsoft Power BI - This tool was used for Data Visualization and Data Analysis
+
+- Microsoft Excel - This tool was used for Data Collection, cleaning and manipulation.
+
+  # Data Cleaning and Preparation
+In the initial phase of the Data cleaning and preparations, we perform the following action;
+
+Data loading, inspection, handling missing variables, data cleaning and formatting.
+
+# Exploratory Data Analysis
+EDA involved the exploring of the data to answer some questions about the data such as;
+
+What is the gender distribution in the organization? Distil to regions and departments
+Show insights on ratings based on gender
+Analyse the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management
+
+# Data Analysis
+This is where we include some basic line of codes or used during analysis;
+
+The first thing i did was to filter the gender and replace the name without gender with null.
+I took out the employers without salary.
+I also took out the names without department.
 
 ## 📸 Dashboard Preview
 
 
 **Author**: AKANIMOH ESTHER JOSEPH 
-**Date**:4TH JULY 2025
+**Date**: 4TH JULY 2025
