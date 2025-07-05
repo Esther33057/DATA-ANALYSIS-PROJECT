@@ -20,6 +20,10 @@ select top 3 region, SUM (sales) as [total sales]
 group by region
 order by [total sales] desc
 
+select top 3 region, SUM (sales) as [total sales]
+      from [dbo].[KMS Sql Case Study]
+group by region
+order by [total sales] asc
 
 ---3
 What were the total sales of appliances in Ontario?
@@ -31,10 +35,24 @@ group by Product_Sub_Category
 ----4
 Advise the management of KMS on what to do to increase the revenue from the bottom
 10 customers
+
 select top 10 customer_name,  sales
        from [dbo].[KMS Sql Case Study]
 order by  sales asc
 
+Key Insights from Bottom 10 Customers
+Metric	Common Trends
+Low Sales Volume	All 10 customers spent less than $500 in total.
+Low Order Frequency	Most placed 1–2 orders only.
+Limited Category Interest: Many bought from just 1–2 product categories.
+Profitability Varies: Some are unprofitable (negative profit margins).
+Geographic Spread: Regions include West, Ontario, Quebec, Yukon, and Prarie.
+Recommended Actions to Boost Revenue
+1. Customer Re-Engagement Campaigns
+2. Category Expansion Incentives
+Action: Offer discounts or loyalty points for purchasing from new product categories.
+3.  Profitability Improvement
+Action: Analyze why certain customers are unprofitable—consider shipping cost, discount misuse, or product mix—and adjust terms accordingly (e.g. minimum order value for free shipping).
 
 -----5
 KMS incurred the most shipping cost using which shipping method?
