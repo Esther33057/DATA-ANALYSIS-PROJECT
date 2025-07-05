@@ -8,7 +8,7 @@ THIS IS MY FIRST PROJECT
 
 # KMS SQL Case Study
 
-This repository contains a case study performed on the KMS business dataset using SQL. The objective is to analyze customer sales, product returns, and shipping costs.
+This repository contains a case study performed on the KMS business dataset using SQL. The objective is to analyze customer sales, product returns, and shipping costs and to Advise the management of KMS on what to do to increase the revenue.
 
 ## 📁 Folder Structure
 
@@ -18,12 +18,13 @@ This repository contains a case study performed on the KMS business dataset usin
 
 ## 🛠 Tools Used
 
-- MySQL 
+- MySQL - This tool was used to Query to create a database (Kulgar_DB) and query the data set while providing possible solutions to the management
 - DB Browser
-- Excel (for cleaning)
-- Git & GitHub
+- MS Excel (Csv) - This tool was used to save, clean and import the data into Mysql Database
+  
 
-##  Key Insights
+##  REPORTS
+
 
 - Top and bottom customers by revenue
 - Product return analysis by customer segment
@@ -65,7 +66,7 @@ In the initial phase of the Data cleaning and preparations, we perform the follo
 Data loading, inspection, handling missing variables, data cleaning and formatting.
 
 # Exploratory Data Analysis
-EDA involved the exploring of the data to answer some questions about the data such as;
+This involved the exploring of the data to answer some questions about the data such as;
 
 What is the gender distribution in the organization? Distil to regions and departments
 Show insights on ratings based on gender
@@ -74,12 +75,37 @@ Analyse the company’s salary structure. Identify if there is a gender pay gap.
 # Data Analysis
 This is where we include some basic line of codes or used during analysis;
 
-The first thing i did was to filter the gender and replace the name without gender with null.
+The first thing i did was to filter the gender and replace the name without gender with null on my Excel Sheet.
 I took out the employers without salary.
 I also took out the names without department.
+I created another column and merged the employee data with the bonus rules. 
+I calculated the amount to be paid to each employee ( salary inclusive of bonus)
+I visualize my data using a Pie Chart and this included the total amount to be paid out per region.
 
-## 📸 Dashboard Preview
+# REPORTS
 
+Gender Distribution of Palmora Group
+FEMALE - 441
+MALE - 465
+NULL - 40
+
+. A recent regulation was adopted which requires manufacturing companies to pay
+employees a minimum of $90,000
+● Does Palmoria meet this requirement?
+From the analysis Palmora group still pays some employees a minimum of $90,000
+
+Show the pay distribution of employees grouped by a band of $10,000. For example:
+● How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000,
+Greater then $120,000 - 97 employees
+$110,000 to $120,000- 105 employees
+$100,000 to $110,000 - 90 employees
+$80,000 to $90,000 - 108 employees
+$70,000 to $80,000 - 117 employees
+$60,000 to $70,000 - 99 employees
+$50,000 to $60,000 - 96 employees
+$40,000 to $50,000 - 105 employees
+$30,000 to $40,000 - 101 employees
+$20,000 to $30,000 - 28 employees
 
 **Author**: AKANIMOH ESTHER JOSEPH 
 **Date**: 4TH JULY 2025
